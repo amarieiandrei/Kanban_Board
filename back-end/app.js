@@ -1,6 +1,6 @@
 const cards = require("./routes/cards");
 const lists = require("./routes/lists");
-const boards = require("./routes/boards");
+// const boards = require("./routes/boards");
 const login = require("./routes/login");
 const signups = require("./routes/signups");
 const cors = require("cors"); // Fetch data
@@ -30,7 +30,7 @@ app.use(express.static("public"));
 app.use(helmet());
 app.use("/api/cards", cards);
 app.use("/api/lists", lists);
-app.use("/api/boards", boards);
+// app.use("/api/boards", boards);
 app.use("/api/login", login);
 app.use("/api/signups", signups);
 
