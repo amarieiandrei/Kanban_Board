@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.MainSignup {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+
+.Auth {
+  margin: 0;
+  padding: 30px 60px 0;
+}
+
+h2 {
+  margin-top: -50px;
+  margin-bottom: 30px;
+}
+
+.AuthGoogle {
+  margin-bottom: 30px;
+}
+
+.FlexBox {
+  display: flex;
+  place-items: center;
+  margin-bottom: 10px;
+}
+
+.LineBefore {
+  border: 0.1px solid #000;
+  width: 175px;
+  opacity: 15%;
+}
+
+.Divider {
+  padding: 0 10px 0 10px;
+  opacity: 75%;
+}
+
+.LineAfter {
+  border: 0.1px solid #000;
+  width: 175px;
+  opacity: 15%;
+}
+
+.FormControl {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+label {
+  display: block;
+  margin: 14px 0 4px;
+  font-weight: bold;
+}
+
+.TextInput {
+  width: 90%;
+  height: 15px;
+  border-radius: 8px;
+  background: hsl(240, 4%, 95%);
+  border: 3.5px solid hsl(240, 4%, 95%);
+  padding: 10px 16px;
+}
+
+.TextInput.NameUsername {
+  width: 75%;
+}
+
+.TextInput:hover {
+  border: 3.5px solid #f9dde6;
+  transition: 500ms ease;
+  background: #fff;
+}
+
+.formCreate {
+  color: #fff;
+  margin-top: 14px;
+  box-sizing: border-box;
+  height: 40px;
+  padding: 10px 66px;
+  border: none;
+  border-radius: 8px;
+  background: #ea4c89;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.formCreate:hover {
+  transition: color 200ms ease;
+  opacity: 75%;
+}
+
+/* NEW CSS */
+/* NEW CSS */
+/* NEW CSS */
+/* NEW CSS */
+/* NEW CSS */
+/* NEW CSS */
+
+.FormControl > .MdVerifiedUserFlexBox {
+  color: green;
+  font-size: 20px;
+  visibility: hidden;
+  position: absolute;
+  right: 20px;
+  margin-top: 25%;
+}
+
+.FormControl > .MdVerifiedUser {
+  color: green;
+  font-size: 20px;
+  visibility: hidden;
+  position: absolute;
+  right: 20px;
+  margin-top: 12.5%;
+}
+
+.FormControl > .BsPatchExclamationFillFlexBox {
+  color: red;
+  font-size: 20px;
+  visibility: hidden;
+  position: absolute;
+  right: 20px;
+  margin-top: 25%;
+}
+
+.FormControl > .BsPatchExclamationFill {
+  color: red;
+  font-size: 20px;
+  visibility: hidden;
+  position: absolute;
+  right: 20px;
+  margin-top: 12.5%;
+}
+
+.FormControl.success > small {
+  visibility: hidden;
+}
+
+.FormControl.success > .MdVerifiedUserFlexBox {
+  visibility: visible;
+}
+
+.FormControl.success > .MdVerifiedUser {
+  visibility: visible;
+}
+
+.FormControl.error > .BsPatchExclamationFillFlexBox {
+  visibility: visible;
+}
+
+.FormControl.error > .BsPatchExclamationFill {
+  visibility: visible;
+}
+
+.FormControl > small {
+  position: absolute;
+  bottom: -20%;
+  left: 1%;
+}

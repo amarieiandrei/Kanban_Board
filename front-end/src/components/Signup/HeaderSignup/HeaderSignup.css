@@ -1,0 +1,15 @@
+.HeaderSignup {
+  padding: 2rem 2rem 0 2rem;
+  margin-left: auto;
+  font-size: 1rem;
+  z-index: 1;
+}
+
+.span {
+  font-weight: bold;
+}
+
+.HeaderLink {
+  text-decoration: none;
+  color: cornflowerblue;
+}

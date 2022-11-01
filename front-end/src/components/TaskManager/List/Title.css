@@ -1,0 +1,42 @@
+.TitleContainer {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.Title {
+  flex-grow: 1;
+  color: #000;
+  margin: auto;
+  font-weight: bold;
+  padding: 8px;
+  font-size: 1.2rem;
+  overflow: hidden;
+}
+
+.TitleInput {
+  color: #000;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 8px 8px;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 100%;
+  border: 2.5px solid #a37e2c;
+  border-radius: 4.25px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.BsThreeDots {
+  margin: auto;
+  cursor: pointer;
+  padding: 7.5px;
+  opacity: 80%;
+}
+
+.BsThreeDots:hover {
+  background: rgba(0, 0, 0, 0.175);
+  border: none;
+  border-radius: 3px;
+}

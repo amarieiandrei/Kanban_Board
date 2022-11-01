@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Main {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+
+.Auth {
+  margin: 0;
+  padding: 30px 60px 0;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+.AuthGoogle {
+  margin-bottom: 30px;
+}
+
+.FlexBox {
+  display: flex;
+  place-items: center;
+  margin-bottom: 20px;
+}
+
+.LineBefore {
+  border: 0.1px solid #000;
+  width: 175px;
+  opacity: 15%;
+}
+
+.Divider {
+  padding: 0 10px 0 10px;
+  opacity: 75%;
+}
+
+.LineAfter {
+  border: 0.1px solid #000;
+  width: 175px;
+  opacity: 15%;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin: 14px 0 4px;
+  font-weight: bold;
+}
+
+.TextInput {
+  width: 90%;
+  height: 15px;
+  border-radius: 8px;
+  background: hsl(240, 4%, 95%);
+  border: 3.5px solid hsl(240, 4%, 95%);
+  outline: none;
+  padding: 10px 16px;
+}
+
+.TextInput:hover {
+  border: 3.5px solid #f9dde6;
+  transition: 500ms ease;
+  background: #fff;
+}
+
+.TextInput:focus {
+  border: 3.5px solid #f9dde6;
+  background: #fff;
+}
+
+.password {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ForgotPassword {
+  text-decoration: none;
+  color: #6a50cd;
+  font-weight: normal;
+}
+
+.formSub {
+  color: #fff;
+  margin-top: 14px;
+  box-sizing: border-box;
+  height: 40px;
+  padding: 10px 66px;
+  border: none;
+  border-radius: 8px;
+  background: #ea4c89;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.formSub:hover {
+  transition: color 200ms ease;
+  opacity: 75%;
+}

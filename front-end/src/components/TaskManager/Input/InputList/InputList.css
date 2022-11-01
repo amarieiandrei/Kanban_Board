@@ -1,0 +1,53 @@
+.InputListContainer {
+  color: #000;
+  margin: 10px 0px 0px 10px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 300px;
+  background-color: #ebecf0;
+  border-radius: 3.25px;
+  opacity: 90%;
+  padding: 4px 0 4px 0;
+}
+
+.InputList {
+  background-color: #fff;
+  display: flex;
+  border: 2.5px solid #a37e2c;
+  outline: none;
+  padding: 8px;
+  border-radius: 4px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 4px;
+}
+
+.InputCardFlex {
+  display: flex;
+  width: 97%;
+  margin: auto;
+}
+
+.AddInputCard {
+  height: 35px;
+  background-color: #006039;
+  border: none;
+  border-radius: 4.25px;
+  color: #fff;
+  margin-right: 10px;
+  padding: 6px 8px;
+  cursor: pointer;
+}
+
+.AddInputCard:hover {
+  background: hsl(156, 93%, 18%);
+}
+
+.AiOutlineClose {
+  color: #006039;
+  font-size: 25px;
+  margin-top: 5px;
+  cursor: pointer;
+}

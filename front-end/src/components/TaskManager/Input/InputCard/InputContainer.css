@@ -1,0 +1,14 @@
+.AddCard {
+  background-color: #ebecf0;
+  padding: 6px;
+  border-radius: 3px;
+  letter-spacing: 0.25px;
+  cursor: pointer;
+  opacity: 75%;
+  width: 92.5%;
+  margin: auto;
+}
+
+.AddCard:hover {
+  background: rgba(0, 0, 0, 0.175);
+}

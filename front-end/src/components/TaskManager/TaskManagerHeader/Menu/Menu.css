@@ -1,0 +1,77 @@
+.MenuWrapper {
+  background-color: #212121;
+  width: 50vw;
+  height: 100vh;
+  color: #fff;
+}
+
+.MenuHeader {
+  display: flex;
+  width: 50vw;
+}
+
+.fa-solid.fa-xmark {
+  font-size: 25px;
+  position: absolute;
+  margin: 6.5%;
+  left: 5%;
+  cursor: pointer;
+  font-weight: light;
+}
+
+.fa-solid.fa-xmark:hover {
+  color: #8b691f;
+}
+
+.HeaderLogoMenu {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  font-family: 'Cormorant SC', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: auto;
+  padding: 2.5%;
+  cursor: pointer;
+}
+
+.MenuMTM {
+  color: #8b691f;
+}
+
+.MenuMain {
+  padding: 11%;
+}
+
+.MenuList {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.MenuItem {
+  margin-bottom: 10px;
+  list-style: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  letter-spacing: 1.75px;
+}
+
+.MenuItem.BOTTOM {
+  margin-top: 50px;
+}
+
+.MenuItem:hover {
+  color: #8b691f;
+}
+
+.BorderBottom {
+  margin: 15px 0 15px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.TextBoxOptions {
+  position: relative;
+  bottom: -100%;
+}

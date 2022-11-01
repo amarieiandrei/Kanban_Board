@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap');
+
+.TaskManagerHeader {
+  display: flex;
+  justify-content: space-around;
+  place-items: center;
+  letter-spacing: 1px;
+  height: 80px;
+  font-weight: bold;
+}
+
+.BeforeLogo {
+  display: flex;
+  place-items: center;
+  list-style: none;
+}
+
+.BeforeLogo:hover {
+  cursor: pointer;
+  color: hsl(156, 51%, 31%);
+}
+
+.HeaderLogo {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  font-family: 'Cormorant SC', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.MTM {
+  letter-spacing: -1.5px;
+}
+
+.AfterLogo {
+  display: flex;
+  place-items: center;
+}
+
+.AfterLogo:hover {
+  cursor: pointer;
+  color: hsl(156, 51%, 31%);
+}
+
+.TaskManagerHeader:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 500ms;
+  font-weight: normal;
+}
+
+.TaskManagerHeader:hover .MTM {
+  color: #a68233;
+}
+
+.TaskManagerHeader:hover .MTM-text {
+  color: hsl(156, 51%, 31%);
+}

@@ -1,0 +1,15 @@
+.AddList {
+  margin: 10px 0px 0px 10px;
+  width: 272px;
+  padding: 12.5px;
+  background: hsl(0 0% 100% / 0.075);
+  border: none;
+  border-radius: 3px;
+  letter-spacing: 0.25px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.AddList:hover {
+  background: hsl(0 0% 100% / 0.175);
+}

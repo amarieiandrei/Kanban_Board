@@ -1,0 +1,22 @@
+.TaskManager {
+  width: 100vw;
+  height: 100vh;
+  background: black url(../../assets/bgTaskManager2.png) no-repeat;
+  background-size: cover;
+  background-color: black;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+.Board {
+  display: flex;
+  width: 100vw;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  white-space: nowrap;
+  height: 100vh;
+  overflow-x: auto;
+}
