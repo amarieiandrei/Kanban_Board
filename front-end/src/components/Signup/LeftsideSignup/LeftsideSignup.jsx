@@ -143,7 +143,7 @@ export const LeftsideSignup = () => {
       ></canvas>
       <div className="Logo">
         <a
-          href="https://amarieiandrei.github.io/MyWebsite/html/home"
+          href="https://amarieiandrei.github.io/Website-1.0/html/home.html"
           className="LogoHref"
         >
           maliakademy
@@ -156,7 +156,7 @@ export const LeftsideSignup = () => {
       <div className="Art">
         <span>Art by </span>
         <a
-          href="https://amarieiandrei.github.io/MyWebsite/html/home"
+          href="https://amarieiandrei.github.io/Website-1.0/html/home.html"
           className="ArtLink"
         >
           Maliakademy
