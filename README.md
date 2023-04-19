@@ -1,4 +1,4 @@
-# MyTaskManager
+# Task_Manager
 
 This Project has the purpose of present an instrument meant to task monitoring.
 This Web Application was implemented with the aim of develop new skills.
