@@ -1,5 +1,7 @@
 # Kanban_Board
 
+# Area of skills: ReactJS, Javascript, HTML, CSS, Sass, Material UI, Git, NodeJS, ExpressJS, MongoDB, Npm.
+
 This Project has the purpose of present an instrument meant to task monitoring.
 This Web Application was implemented with the aim of develop new skills.
 The basic functionality is the creation of an account that have a dashboard, which gives the user access to create lists in which tasks can be added,
